@@ -13,11 +13,13 @@ ll fatorial(ll n, client &client) {
 
 	if(as_str.is_string()) {
 		cout << "Esse fatorial, " << n <<"!, foi recuperado do banco " << endl;
-		return stoi(as_str.as_string());
+		size_t sz = 0;
+		return stoll(as_str.as_string(), &sz, 10);
 	}
 
-	if(n == 2) {
-		return 2;
+	if(n == 2 || n == 1) {
+		cout << "Esse fatorial, " << n <<"!, foi calculado" << endl;
+		return n;
 	}
 
 	ll fat_r = n*fatorial(n-1, client);
@@ -30,7 +32,7 @@ ll fatorial(ll n, client &client) {
 
 int main(int argc, char *argv[]) {
 	if(argc < 2) {
-		cout << "Erro: nenhum valor informado.\nExemplo:\n\t$ ./atividade 3\n\t$ Esse fatorial, 3!, foi calculado\n\t$ 6" << endl;
+		cout << "Erro: nenhum valor informado.\nExemplo:\n\t$ ./atividade_redis 3\n\t$ Esse fatorial, 3!, foi calculado\n\t$ 6" << endl;
 		return 0;
 	}
 
