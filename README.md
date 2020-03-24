@@ -9,7 +9,7 @@
 Primeiro instale a bilbioteca cpp_redis
 
 ```bash
-sudo ./install_cpp_redis
+sudo ./install_cpp_redis.sh
 ```
 Agora compile o arquivo atividade_redis.cpp
 
