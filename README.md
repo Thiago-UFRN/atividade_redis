@@ -1,8 +1,8 @@
-# Atividade Redis -- IMD0094
-
 <p align="center">
    <img src="https://github.com/Thiago-UFRN/atividade_redis/blob/master/img/fatorial-img.png" width="408" height="349" />
 </p>
+
+# Atividade Redis -- IMD0094
 
 Primeiro instale a bilbioteca cpp_redis
 
