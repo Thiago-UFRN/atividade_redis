@@ -1,5 +1,9 @@
 # Atividade Redis -- IMD0094
 
+<p align="center">
+   <img src="https://github.com/Thiago-UFRN/atividade_redis/img/fatorial-img.png"/>
+</p>
+
 Primeiro instale a bilbioteca cpp_redis
 
 ```bash
